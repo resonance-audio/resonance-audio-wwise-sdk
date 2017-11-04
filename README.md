@@ -1,6 +1,6 @@
 # [Resonance Audio SDK](//developers.google.com/resonance-audio) for [Wwise](//www.audiokinetic.com/products/wwise/)
 
-Enables high-quality spatial audio on mobile and desktop platforms.
+This SDK enables high-quality spatial audio on mobile and desktop platforms.
 
 Copyright (c) 2017 Google Inc. All rights reserved.
 
