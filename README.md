@@ -16,4 +16,3 @@ The Resonance Audio SDK for Wwise requires
 [Wwise version 2017.1.0.6302](//www.audiokinetic.com/download/) or newer.
 
 If you are new to the Resonance Audio SDK for Wwise, see the [Getting started with Resonance Audio in Wwise](//developers.google.com/resonance-audio/develop/wwise/getting-started) guide.
-
