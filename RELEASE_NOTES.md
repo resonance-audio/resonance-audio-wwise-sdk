@@ -1,11 +1,19 @@
 # Release notes
 
-## Resonance Audio SDK for Wwise v1.1.1
+## Resonance Audio SDK for Wwise v1.2.0
+
+### Behavioral Changes
+* Significant CPU performance improvement for reverb times more than 0.6 seconds (thanks to a new spectral reverb implementation under the hood). Also, delivers a slightly brighter sounding reverb.
+
+### Bug fixes
+* Static libraries are now linked against gnustl on Android to avoid symbol mismatches.
+
+## Resonance Audio SDK for Wwise v1.1.1 (2017-12-18)
 
 ### Bug fixes
 * Fixed a bug in stereo deinterleaving input buffer conversion that could lead to a crash.
 
-## Resonance Audio SDK for Wwise v1.1.0
+## Resonance Audio SDK for Wwise v1.1.0 (2017-12-15)
 
 ### Behavioral Changes
 * The reverb brightness and time modifiers in `RoomProperties` adjust the room effects more accurately now for long reverb tails.
