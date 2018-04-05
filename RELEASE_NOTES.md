@@ -1,6 +1,11 @@
 # Release notes
 
-## Resonance Audio SDK for Wwise v1.2.0
+## Resonance Audio SDK for Wwise v1.2.1
+
+### Bug fixes
+* Minor bug fixes and performance optimizations.
+
+## Resonance Audio SDK for Wwise v1.2.0 (2018-02-20)
 
 ### Behavioral Changes
 * Significant CPU performance improvement for reverb times more than 0.6 seconds (thanks to a new spectral reverb implementation under the hood). Also, delivers a slightly brighter sounding reverb.

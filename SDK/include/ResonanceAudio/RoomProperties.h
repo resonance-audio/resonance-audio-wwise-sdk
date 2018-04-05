@@ -11,10 +11,41 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-#ifndef VRAUDIO_ROOM_PROPERTIES_H_
-#define VRAUDIO_ROOM_PROPERTIES_H_
+#ifndef VR_AUDIO_PLATFORM_COMMON_ROOM_PROPERTIES_H_
+#define VR_AUDIO_PLATFORM_COMMON_ROOM_PROPERTIES_H_
 
 namespace vraudio {
+
+// Room surface material names, used to set room properties.
+// Note that this enum is C-compatible by design to be used across external
+// C/C++ and C# implementations.
+enum MaterialName {
+  kTransparent = 0,
+  kAcousticCeilingTiles,
+  kBrickBare,
+  kBrickPainted,
+  kConcreteBlockCoarse,
+  kConcreteBlockPainted,
+  kCurtainHeavy,
+  kFiberGlassInsulation,
+  kGlassThin,
+  kGlassThick,
+  kGrass,
+  kLinoleumOnConcrete,
+  kMarble,
+  kMetal,
+  kParquetOnConcrete,
+  kPlasterRough,
+  kPlasterSmooth,
+  kPlywoodPanel,
+  kPolishedConcreteOrTile,
+  kSheetrock,
+  kWaterOrIceSurface,
+  kWoodCeiling,
+  kWoodPanel,
+  kUniform,
+  kNumMaterialNames
+};
 
 // Acoustic room properties. This struct can be used to describe an acoustic
 // environment with a given geometry and surface properties.
@@ -71,37 +102,6 @@ struct RoomProperties {
   float reverb_brightness;
 };
 
-// Room surface material names, used to set room properties.
-// Note that this enum is C-compatible by design to be used across external
-// C/C++ and C# implementations.
-enum MaterialName {
-  kTransparent = 0,
-  kAcousticCeilingTiles,
-  kBrickBare,
-  kBrickPainted,
-  kConcreteBlockCoarse,
-  kConcreteBlockPainted,
-  kCurtainHeavy,
-  kFiberGlassInsulation,
-  kGlassThin,
-  kGlassThick,
-  kGrass,
-  kLinoleumOnConcrete,
-  kMarble,
-  kMetal,
-  kParquetOnConcrete,
-  kPlasterRough,
-  kPlasterSmooth,
-  kPlywoodPanel,
-  kPolishedConcreteOrTile,
-  kSheetrock,
-  kWaterOrIceSurface,
-  kWoodCeiling,
-  kWoodPanel,
-  kUniform,
-  kNumMaterialNames
-};
-
 }  // namespace vraudio
 
-#endif  // VRAUDIO_ROOM_PROPERTIES_H_
+#endif  // VR_AUDIO_PLATFORM_COMMON_ROOM_PROPERTIES_H_
