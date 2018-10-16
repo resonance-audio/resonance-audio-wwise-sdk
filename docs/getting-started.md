@@ -1,8 +1,4 @@
-{% extends "resonance-audio/_page.html" %}
-
-{% block title %}Getting started with the Resonance Audio plugin for Wwise{% endblock %}
-
-{% block body %}
+# Getting started with the Resonance Audio plugin for Wwise
 
 <img srcset="/resonance-audio/images/wwise/wwise_hero2.png 2x">
 
@@ -171,7 +167,4 @@ regardless of the binaural renderer order in the main audio bus.
 *  See [Game Engine Integration](/resonance-audio/develop/wwise/game-engine-integration)
    for details on integrating the Resonance Audio plugins for Wwise into Unity
    or Unreal projects.
-
-
-{% endblock %}
 
