@@ -164,7 +164,7 @@ regardless of the binaural renderer order in the main audio bus.
 <img src="images/11-room.png" width="200">
 
 ## Next Steps
-*  See [Game Engine Integration](/resonance-audio/develop/wwise/game-engine-integration)
+*  See [Game Engine Integration](game-engine-integration)
    for details on integrating the Resonance Audio plugins for Wwise into Unity
    or Unreal projects.
 
