@@ -1,9 +1,5 @@
+# Resonance Audio Game Engine Integration
 
-{% extends "resonance-audio/_page.html" %}
-
-{% block title %}Resonance Audio Game Engine Integration{% endblock %}
-
-{% block body %}
 
 This guide shows you how to integrate the Resonance Audio plugins for Wwise into
 your projects.
@@ -133,5 +129,3 @@ for Unreal does not currently support using dynamic libraries to load plugins.
 
 1.  Rebuild the integration code to complete plugin registration.
 
-
-{% endblock %}
