@@ -37,7 +37,7 @@ Note: If room properties are not configured, the room effects bus outputs silenc
       method in your project's game engine integration. Resonance Audio provides
       reference scripts for you to check how this function can be used in Unity.
 
-For more information, see [Room effects in Unity](#room_effects_in_unity) in
+For more information, see [Room effects in Unity](https://developers.google.com/resonance-audio/develop/unity/developer-guide#room_effects_in_unity) in
 this guide.
 
 
@@ -62,7 +62,7 @@ recompile any code during installation.
 1.  Copy the Resonance Audio plugin dynamic libraries for each platform into
     the corresponding DSP folders in the Wwise integration.
 1.  You can now access the plugins within Unity. See the following instructions
-    for including the [room effects in Unity](#room_effects_in_unity) using the
+    for including the [room effects in Unity](https://developers.google.com/resonance-audio/develop/unity/developer-guide#room_effects_in_unity) using the
     provided scripts.
 
 Caution:  Make sure to copy the **GeneratedSoundbanks** folder from your Wwise
