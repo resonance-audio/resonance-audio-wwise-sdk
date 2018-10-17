@@ -96,7 +96,7 @@ The package has the following plugins.
 
 ## Using the Resonance Audio Room Effects plugin
 
-1.   Follow the instructions in this guide for [setting up the Resonance Audio renderer plugin](#using_the_resonance_audio_renderer_plugin).
+1.   Follow the instructions in this guide for [setting up the Resonance Audio renderer plugin](getting-started#using_the_resonance_audio_renderer_plugin).
 
 1.   Create a new **Audio Bus** under the master audio bus and set its channel
      configuration to **Stereo**.
