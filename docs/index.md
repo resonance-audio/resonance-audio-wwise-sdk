@@ -39,14 +39,15 @@ The package has the following plugins.
     <th scope="col">Description</th>
   </tr>
   <tr>
-    <td>**Resonance Audio Renderer**
+    <td><b>Resonance Audio Renderer</b>
     </td>
     <td>
-      Renders spatialized sound sources binaurally using [Wwise's Ambisonic pipeline](https://info.audiokinetic.com/Ambisonics-in-wwise-overview){: .external}.
+      Renders spatialized sound sources binaurally using
+        <a href="https://info.audiokinetic.com/Ambisonics-in-wwise-overview">Wwise's Ambisonic pipeline</a>
     </td>
    </tr>
    <tr>
-    <td>**Resonance Audio Room Effects**
+    <td><b>Resonance Audio Room Effects</b>
     </td>
     <td>
      Simulates room acoustics for each sound source in the environment.<br>

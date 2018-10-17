@@ -53,7 +53,7 @@ Resonance Audio plugins. Using the dynamic libraries lets you avoid having to
 recompile any code during installation.
 
 1.  Download and install the Wwise Unity plugin. Follow the
-    [Wwise Unity Integration guide.](https://www.audiokinetic.com/library/edge/?source=Unity&id=main.html){: .external}.
+    [Wwise Unity Integration guide](https://www.audiokinetic.com/library/edge/?source=Unity&id=main.html){: .external}.
 
 1.  Set up your Unity project and link it to your Wwise project.
 
@@ -80,7 +80,7 @@ script. This script encapsulates an audio room component that you can attach to
 any game object in your Unity scene.
 
 The `WwiseResonanceAudioRoom` component is based on the **ResonanceAudioRoom**
-component in the [Resonance Audio SDK for Unity package](https://github.com/googlevr/resonance-audio-unity-sdk){: .external}.
+component in the [Resonance Audio SDK for Unity package](https://github.com/resonance-audio/resonance-audio-unity-sdk).
 
 To use the included audio room component:
 
@@ -102,7 +102,10 @@ To use the included audio room component:
     `WwiseResonanceAudioRoom` components added to the scene are updated
     automatically with the corresponding plugin name.
 
-See ["Room Effects in Unity" in the Unity Developer Guide](https://developers.google.com/resonance-audio/develop/unity/developer-guide#room-effects-in-unity)
+<!-- developers.google.com anchors need underscores, in contrast to github which
+needs dashes
+-->
+See ["Room Effects in Unity" in the Unity Developer Guide](https://developers.google.com/resonance-audio/develop/unity/developer-guide#room_effects_in_unity)
 for more details on working with audio rooms in your Unity scenes.
 
 ## Unreal integration
