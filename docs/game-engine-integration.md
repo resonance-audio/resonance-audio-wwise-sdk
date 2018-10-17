@@ -5,7 +5,7 @@ This guide shows you how to integrate the Resonance Audio plugins for Wwise into
 your projects.
 
 If you are new to the Resonance Audio plugins for Wwise, see
-[Getting Started with the Resonance Audio Plugin for Wwise](getting-started).
+[Getting Started with the Resonance Audio Plugin for Wwise](index).
 
 
 ## About the Resonance Audio Wwise integration
@@ -37,7 +37,7 @@ Note: If room properties are not configured, the room effects bus outputs silenc
       method in your project's game engine integration. Resonance Audio provides
       reference scripts for you to check how this function can be used in Unity.
 
-For more information, see [Room effects in Unity](https://developers.google.com/resonance-audio/develop/unity/developer-guide#room_effects_in_unity) in
+For more information, see [Room effects in Unity](#room-effects-in-unity) in
 this guide.
 
 
@@ -102,7 +102,7 @@ To use the included audio room component:
     `WwiseResonanceAudioRoom` components added to the scene are updated
     automatically with the corresponding plugin name.
 
-See ["Room Effects in Unity" in the Unity Developer Guide](https://developers.google.com/resonance-audio/develop/unity/developer-guide#room_effects_in_unity)
+See ["Room Effects in Unity" in the Unity Developer Guide](https://developers.google.com/resonance-audio/develop/unity/developer-guide#room-effects-in-unity)
 for more details on working with audio rooms in your Unity scenes.
 
 ## Unreal integration

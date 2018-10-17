@@ -96,7 +96,7 @@ The package has the following plugins.
 
 ## Using the Resonance Audio Room Effects plugin
 
-1.   Follow the instructions in this guide for [setting up the Resonance Audio renderer plugin](getting-started#using_the_resonance_audio_renderer_plugin).
+1.   Follow the instructions in this guide for [setting up the Resonance Audio renderer plugin](#using-the-resonance-audio-renderer-plugin).
 
 1.   Create a new **Audio Bus** under the master audio bus and set its channel
      configuration to **Stereo**.
@@ -145,7 +145,7 @@ To set up a multiple Ambisonic pipeline:
 
 1.  Extend the Ambisonic **Auxiliary Bus** approach for each Ambisonic order.
     To do this, follow the instructions in this guide for creating auxiliary
-    Ambisonic bus [using the Resonance Audio Room Effects plugin](#using_the_resonance_audio_room_effects_plugin).
+    Ambisonic bus [using the Resonance Audio Room Effects plugin](#using-the-resonance-audio-room-effects-plugin).
 
 1.  Create an auxiliary bus for each Ambisonic order by selecting the
     corresponding channel configuration for that bus under the main
